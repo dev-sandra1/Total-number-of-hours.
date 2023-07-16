@@ -12,12 +12,12 @@ public class Excercise01 {
 
         weeks = (totalHours / 168);
 
-        weekHours = 168 * semanas;
+        weekHours = 168 * weeks;
         residue = totalHours - weekHours;
 
         days =  residue / 24;
         
-        daysHours = 24 * dias;
+        daysHours = 24 * days;
         hoursWeeksDays = (weekHours + daysHours);
 
         hours = totalHours - hoursWeeksDays;
